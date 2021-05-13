@@ -1,0 +1,52 @@
+header {
+    display: block;
+    padding: 10px;
+    margin: 0px;
+}
+
+header img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+
+header h1 {
+    position:absolute;
+    display: flex;
+    top: 1vw;
+    right: 10vw;
+    margin: 5px;
+    font-family: 'Fugaz One', cursive;
+    font-size: 10vw;
+    color:rgba(47, 79, 79, 0.521);
+}
+
+body {
+    background: darkslategray;
+}
+
+nav {
+    display:inline-block;
+    position:absolute;
+    top: 0;
+    left: 1vw; 
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    font-size: 2vw;
+    background-color: rgba(47, 79, 79, 0.521);
+}
+
+nav ul {
+    padding: 5px;
+    margin: 3px;
+    list-style-type:none;
+    color: rgb(223, 224, 224);
+}
+
+.button {
+    text-align: center;
+    margin: 1px;
+    padding: 0;
+}
