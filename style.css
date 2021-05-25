@@ -67,6 +67,10 @@ li {
 
 a {
     text-decoration: none;
+}
+
+.nav-links {
+    text-decoration: none;
     color: rgb(223, 224, 224);
 }
 
@@ -88,16 +92,53 @@ button:hover {
 section {
     display: block;
     margin-top: 15px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
     margin-bottom: 20px;
     padding: 20px;
 }
 
-#contact-page {
+.main-content{
     text-align: center;
 }
 
+.columns{
+    display: inline-block;
+    width: 250px;
+    min-height: 250px;
+    padding: 12px;
+    margin: 15px;
+}
+
+.columns-text {
+    display: inline-flex;
+    color:darksalmon;
+    font-family: 'Fugaz One', cursive;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;
+    font-size: 18px;
+}
+
+/* #frisbee-img {
+    max-width: 250px;
+    display: none;
+}
+
+#git-hub-img {
+    max-width: 250px;
+    display: none;
+}
+
+#linkedin-img {
+    max-width: 250px;
+    display: none;
+} */
+
+.columns:hover {
+    border: solid darkseagreen 5px;
+    /* display: inline-flex; */
+}
 h2 {
     color: darksalmon;
     font-family: 'Fugaz One', cursive;
@@ -109,7 +150,19 @@ h3 {
     color: rgb(223, 224, 224);
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
-    
+}
+
+h4 {
+    color: rgb(223, 224, 224);
+    font-family: 'Fugaz One', cursive;
+    font-size: 30px;
+    margin: 15px 10px 15px 10px;
+}
+
+h5{
+    color:darkseagreen;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
 }
 
 .info {
@@ -137,18 +190,18 @@ h3 {
     border: solid darkseagreen 5px;
 }
 
-.frisbee-img {
-    float: right;
-    width: 25%;
-    margin-right: 10px;
-    margin-left: 10px;
-    border: solid darkseagreen 5px;
+#contact-page {
+    text-align: center;
+}
+
+#contact-page a{
+    color: rgb(223, 224, 224);
 }
 
 .screenshot1 {
     float: right;
     display:block;
-    width: 25%;
+    width: 30%;
     margin-left: 10px;
     margin-right: 20px;
     margin-top: 30px;
@@ -162,10 +215,11 @@ h3 {
 .screenshot2 {
     float: right;
     display: block;
-    width: 25%;
+    width: 30%;
     margin-right: 15px;
     margin-left: 20px;
     margin-top: 30px;
+    margin-bottom: 30px;
     border:solid 5px rgb(223, 224, 224);
 }
 
@@ -174,10 +228,8 @@ h3 {
 }
 
 footer {
-    color: darksalmon;
-    font-family: 'Open Sans', sans-serif;
     text-align: center;
-    font-size: 25px;
+    margin-top: 30px;
     height: 50px;
 }
 
