@@ -90,7 +90,7 @@ button:hover {
 }
 
 section {
-    display: block;
+    display: inline-block;
     margin-top: 15px;
     margin-left: 40px;
     margin-right: 40px;
@@ -103,9 +103,9 @@ section {
 }
 
 .columns{
-    display: inline-block;
+    display: inline-flex;
     width: 250px;
-    min-height: 250px;
+    min-height: 510px;
     padding: 12px;
     margin: 15px;
 }
@@ -120,20 +120,20 @@ section {
     font-size: 18px;
 }
 
-/* #frisbee-img {
+#frisbee-img {
     max-width: 250px;
-    display: none;
+    
 }
 
 #git-hub-img {
     max-width: 250px;
-    display: none;
+    
 }
 
 #linkedin-img {
     max-width: 250px;
-    display: none;
-} */
+   
+}
 
 .columns:hover {
     border: solid darkseagreen 5px;
@@ -160,6 +160,9 @@ h4 {
 }
 
 h5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color:darkseagreen;
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
@@ -192,6 +195,7 @@ h5{
 
 #contact-page {
     text-align: center;
+    display: block;
 }
 
 #contact-page a{
@@ -202,9 +206,7 @@ h5{
     float: right;
     display:block;
     width: 30%;
-    margin-left: 10px;
-    margin-right: 20px;
-    margin-top: 30px;
+    margin: 30px 20px 10px 30px;
     border:solid 5px rgb(223, 224, 224);
 }
 
@@ -212,14 +214,12 @@ h5{
     border: none;
 }
 
+
 .screenshot2 {
     float: right;
     display: block;
     width: 30%;
-    margin-right: 15px;
-    margin-left: 20px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin: 30px 20px 10px 30px;
     border:solid 5px rgb(223, 224, 224);
 }
 
@@ -233,8 +233,29 @@ footer {
     height: 50px;
 }
 
+.update {
+    padding-left: 15px;
+}
+
+.footer-img {
+    height: 50px;
+}
+
 @media screen and (max-width: 900px) {
     nav {
         width: 15%;
     }
+}
+
+@media screen and (max-width: 500px) {
+    .screenshot1 {
+        width: 100%;
+        margin: 15px 40px 15px 40px;
+        float: none;
+    }
+    .screenshot2 {
+        width: 100%;
+        margin: 15px 40px 15px 40px;
+    }
+    
 }
