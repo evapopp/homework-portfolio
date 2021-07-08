@@ -169,6 +169,14 @@ h5{
     font-size: 12px;
 }
 
+h6{
+    color: darkseagreen;
+    font-family: 'Fugaz One', cursive;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
 .info {
     color: rgb(223, 224, 224);
     font-family: 'Open Sans', sans-serif;
