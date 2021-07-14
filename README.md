@@ -5,8 +5,8 @@ Welcome to my professional portfolio which I have created during my time in the 
 
 ## Links 
 
-* Deployed Site: https://evapopp.github.io/homework-portfolio/
-* Repo: https://github.com/evapopp/homework-portfolio
+* Deployed Site: https://evapopp.github.io/portfolio/
+* Repo: https://github.com/evapopp/portfolio
 
 
 ## Page Preview
