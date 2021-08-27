@@ -211,7 +211,7 @@ h6{
     color: rgb(223, 224, 224);
 }
 
-.screenshot1 {
+.screenshot {
     float: right;
     display:block;
     width: 30%;
@@ -219,32 +219,7 @@ h6{
     border:solid 5px rgb(223, 224, 224);
 }
 
-.screenshot1:hover {
-    border: none;
-}
-
-
-.screenshot2 {
-    float: right;
-    display: block;
-    width: 30%;
-    margin: 30px 20px 10px 30px;
-    border:solid 5px rgb(223, 224, 224);
-}
-
-.screenshot2:hover {
-    border: none;
-}
-
-.screenshot3 {
-    float: right;
-    display:block;
-    width: 30%;
-    margin: 30px 20px 10px 30px;
-    border:solid 5px rgb(223, 224, 224);
-}
-
-.screenshot3:hover {
+.screenshot:hover {
     border: none;
 }
 
@@ -269,14 +244,9 @@ footer {
 }
 
 @media screen and (max-width: 500px) {
-    .screenshot1 {
+    .screenshot {
         width: 100%;
         margin: 15px 40px 15px 40px;
         float: none;
     }
-    .screenshot2 {
-        width: 100%;
-        margin: 15px 40px 15px 40px;
-    }
-    
 }
